@@ -24,3 +24,4 @@ Route::get('kepegawaian/add', 'kepegawaian\KepegawaianController@add');
 Route::post('kepegawaian/save', 'kepegawaian\KepegawaianController@save');
 Route::get('kepegawaian/{id}/delete', 'kepegawaian\KepegawaianController@delete');
 Route::get('kepegawaian/find', 'kepegawaian\KepegawaianController@find');
+Route::get('/api/user','UserController@getUser')->name('api.user');
